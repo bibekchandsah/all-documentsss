@@ -1,0 +1,58 @@
+section .main .searchBx {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.searchBx .query {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    /* removes bold border which is shown while typing letters in search box */
+    font-size: 13px;
+    border-radius: 30px;
+    padding-left: 45px;
+    padding-right: 30px;
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.searchBx:hover{
+  box-shadow: 0px 1px 3px rgb(192, 185, 185);
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.searchBx .icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 15px;
+    align-items: center;
+    pointer-events: none;
+}
+
+.searchBx .icons img {
+    min-width: 100%;
+}
+
+.searchBtn {
+    margin: 5px 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 6px 10px;
+    color: #555;
+    font-size: 14px;
+    /* border: none; */
+    cursor: pointer;
+    border-radius: 6px;
+    /* border: 1px solid transparent; */
+    border: 1px solid rgb(241, 237, 237);
+    /* outline: none; */
+}
+
+.searchBtn:hover {
+    border: 1px solid #ccc;
+}
